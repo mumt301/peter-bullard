@@ -4,25 +4,27 @@ QUESTIONNAIRE!
 The following questionnaire seeks to understand your previous knowledge about some of the concepts that we will learn in class during the coming term.
 
 1. Do you know any programming languages? If you do, which ones?
-
+I have a basic understanding of Java, MATLAB, Python, C++, and Visual Basic. I had an introduction to HTML and CSS, but it about 4 years ago, and I don't remember the specifics well.
 2. What is your primary computer operating system (OS)?
-
+Windows
 3. Do you own a smartphone, tablet, or mobile device? What is your favourite OS for mobile devices?
-
+I own an iPhone, and I have been using a phone with iOS for about 6 years.
 4. Do you use any social networking services? If you do, which ones? Why?
-
+I have Facebook, Instagram, and YouTube accounts for personal use. Facebook and Instagram are convenient for keeping in touch with friends and family, and YouTube is convenient for entertainment and finding information on topics that interest me.
 5. Expand the following acronyms and do research about their meaning. You may look them up if you don't know:
 
-    HTTP
-    REST    
-    API
+    HTTP - Hypertext Transfer Protocol
+    REST - Representational State Transfer 
+    API - Application Programming Interface
 
 6. Do you play a musical instrument or sing? If so, how much experience do you have?
-
+I have been playing alto saxophone for 11 years, piano for 14 years (very on and off), and electric guitar for 1 year. I am most comfortable with the saxophone and am out of practice during the semester since I play more over the summer.
 7. Can you read music notation? If so, how well?
-
+I can read music notation easily (sheet music, anyway).
 8. How large is your personal music collection? Estimate the number of artists, albums, and songs. If instead you listen to music using streaming services, how many playlists, artists, albums, and songs do you have in your account?
-
+Physically, I only have 4 albums by "King Gizzard and the Lizard Wizard" and "Snarky Puppy". On my Spotify account, I have 1,539 liked songs from ~450 artists and ~600 albums. I have 8 playlists (but I only regularly listen to 3 or 4 of them).
 9. How do you search and find new music? How do you think this affects the types of artists that you end up listening to?
-
+I find a lot of music through Spotify's "Discover Weekly" feature and other similar features that recommend songs. I think it means I'm more likely to find music that's similar to my current taste and avaliable specifically on Spotify, which is restrictive. The other way I find music is searching for songs I like from podcasts or shows, which sometimes gets me out of my Spotify "bubble".
 10. Name two musical artists that you like. What do you find interesting about their music that makes you like them?
+I like King Gizzard and the Lizrad Wizard because of the wide variety in their music across albums and their willingness to experiment. Listening to two different albums of theirs can sometimes sound like listening to two different bands, and I enjoy listening to different albums depending on my mood.
+I also particularly enjoy Snarky Puppy. I like focusing on the instruments instead of vocals, and I find it interesting to listen to the musicians' choices while improvising (2:55-5:10 in Outlier is one of my favorites), which is rare in most of the music I listen to. I also like the combination of instruments they have and how each one gets a chance to shine across their songs.
