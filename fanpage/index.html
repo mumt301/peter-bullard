@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <title>King Gizzard and the Lizard Wizard</title>
+        <link rel="stylesheet" href="fanstyles.css">
+    </head>
+
+    <body>
+
+        <div class="tab">
+            <button class="tablinks" onclick="openPage('Home', this, event, '#18201a', '#245432','#2fae56')" id="defaultOpen">Home</button>
+            <button class="tablinks" onclick="openPage('Biography', this, event, '#0d0a2c', '#3b359d','#a599ff')">Biography</button>
+            <button class="tablinks" onclick="openPage('Discography', this, event, '#1a1715', '#5b3f28','#db8443')">Discography</button>
+            <button class="tablinks" onclick="openPage('Listen', this, event, '#1f191b', '#7a3b50','#ff72b2')">Listen</button>
+            <button class="tablinks" onclick="document.location='/../assignments.html'" style="float:right;">Back to Assignments</button>
+        </div>
+
+        <div id="Home" class="tabcontent">
+            <article>
+                <h3>King Gizzard & the Lizard Wizard</h3>
+            </article> 
+        </div>
+
+        <div id="Biography" class="tabcontent">
+            <article>
+                <h3>Biography</h3>
+            </article>
+        </div>
+
+        <div id="Discography" class="tabcontent">
+            <article>
+                <h3>Discography</h3>
+            </article>
+        </div>
+
+        <div id="Listen" class="tabcontent">
+            <article>
+                <h3>Listen</h3>
+            </article>
+        </div>
+
+
+    
+        <script>
+            function openPage(pageName,elmnt,evt,colorDark,colorMid,colorLight) {
+                var i, tabcontent, tablinks, tab, r;
+
+                //Hide all content
+                tabcontent = document.getElementsByClassName("tabcontent");
+                for (i = 0; i < tabcontent.length; i++) {
+                    tabcontent[i].style.display = "none";
+                }
+
+                //set all tablinks inactive
+                tablinks = document.getElementsByClassName("tablinks");
+                for (i = 0; i < tablinks.length; i++) {
+                    tablinks[i].className = tablinks[i].className.replace(" active", "");
+                }
+
+                //set clicked button active
+                evt.currentTarget.className += " active";
+
+                //Set tab color
+                tab = document.getElementsByClassName("tab");
+                for (i = 0; i < tab.length; i++){
+                    tab[i].style.backgroundColor = colorMid;
+                }
+
+                //Display chosen content
+                document.getElementById(pageName).style.display = "block";
+
+                //Change color scheme
+                r=document.querySelector(':root');
+                r.style.setProperty('--colorDark', colorDark);
+                r.style.setProperty('--colorMid', colorMid);
+                r.style.setProperty('--colorLight', colorLight);
+            }
+
+            document.getElementById("defaultOpen").click();
+        </script>
+
+    </body>
+
+</html>

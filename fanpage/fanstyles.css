@@ -1,0 +1,50 @@
+:root{
+  --colorDark: #000000;
+  --colorMid: #000000;
+  --colorLight: #000000;
+}
+
+article {
+  padding: 10px;
+  padding-top:0px;
+  margin: 10px;
+}
+
+body {
+  margin:0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  transition: 0.3s;
+  background-color: var(--colorDark);
+  color: var(--colorLight);
+}
+
+.tab {
+  margin:0px;
+  font-size:0px;
+  transition: 0.3s;
+  background-color: var(--colorMid);
+}
+
+.tab button {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: var(--colorMid);
+  border: none;
+  outline: none;
+  padding:14px;
+  cursor: pointer;
+  font-size:17px;
+  transition: 0.3s;
+}
+
+.tab button.tablinks {
+  color: var(--colorLight);
+  background-color: transparent;
+}
+
+.tab button:hover {
+  background-color: var(--colorDark);
+}
+
+.tab button.active {
+  background-color: var(--colorDark);
+}
