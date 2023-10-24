@@ -32,4 +32,9 @@ function openPage(pageName,elmnt,evt,colorDark,colorMid,colorLight) {
     r.style.setProperty('--colorLight', colorLight);
 }
 
+function albumInfo(release, label) {
+    var paragraph = document.getElementById("albumInfo");
+    paragraph.innerHTML = "Release: " + release + "<br>Label: " + label;
+}
+
 document.getElementById("defaultOpen").click();
