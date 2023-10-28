@@ -9,10 +9,10 @@ article {
 }
 
 body {
-  font-size: 1.5vw;
-  margin:0px;
-  background-color:lightgoldenrodyellow;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5vw;
+    margin:0px;
+    background-color:lightgoldenrodyellow;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .tab {
@@ -40,4 +40,8 @@ body {
 .tab button:hover {
   background-color: indianred;
   color: lightgoldenrodyellow;
+}
+
+table {
+  max-width: 70%;
 }
