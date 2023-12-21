@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>Final Report</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="tab">
+            <button class="tablinks" onclick="document.location='/peter-bullard/final/report.html'">Final Project</button>
+            <button class="tablinks active">My Report</button>
+        </div>
+        <article>
+            <h3>MUMT301 Final Project Report - Peter Bullard</h3>
+            <p>
+                I created a webpage using HTML, CSS, and JavaScript to order a playlist based on a chosen feature. 
+                The page consists of a brief explanation of how to use it, a list of radio buttons to select the sorting feature,
+                and a collection of text inputs to accept track names and, optionally, artist names. My intial plan was to use
+                the MusicBrainz API to find the MusicBrainz ID number (MBID) of each track. The AcousticBrainz API could then
+                compare two songs based on the chosen metric, and I would use that to order the playlist by starting with the first
+                track entered and repeatedly adding the next "most similar" track. However, this was impossible since the
+                AcousticBrainz API was discontinued in 2022. I tried to use the newer ListenBrainz API, but it does not have anything
+                comparable to AcousticBrainz's "similarity" feature. Instead, I chose to work with Spotify's Web API (which I will
+                refer to as "the API").
+            </p>
+            <p>
+                The tracks are ordered using the following steps each time the page loads. After a request is sent to the API for a
+                token, a URL is prepared for each song entered by the user. These URLs are used in calls to the API's search endpoint to get general
+                information (Spotify ID number, artist, etc.) for each track. This information is stored in an array to later retrieve 
+                and display. The ID numbers are used to call the API's audio-features endpoint
+                for infomation about the tempo, loudness, etc. of the tracks. Each track is an element in a new array, containing
+                information about those featuers. That array is then sorted according to the chosen feature, and a table is created
+                to display the results. The ID of each track in the ordered array is found in the original array from the search, which
+                is used to retrieve and display the corresponding track title and artist. 
+            </p>
+            <p>
+                I found Spotify's Web API to be difficult to work with during this project. Aside from the initial struggle of learning
+                how to properly get tokens and format the calls to the API, the results seemed to change when I opened the page on a new day.
+                The greatest example of this occurred near the end of the project. On 18 December 2023, the sorting was functional, and I
+                only had to create the table to finish the project. However, upon double-checking my results on 21 December 2023, I found that,
+                unlike before, specifying an artist caused the API's search to only return a specific song by Kid Loco. I even had an old tab
+                open from the 18th to verify that the same exact API calls were made and no code was changed, yet I was no longer getting the correct tracks from the search.
+                The issue was only a missing space in my URLs before the artist name. This took hours to find because the same exact URLs
+                worked just days prior, so I searched for problems elsewhere in my code after checking that the URLs were identical.
+            </p>
+        </article>
+    </body>
+</html>

@@ -1,0 +1,74 @@
+a:link {color:firebrick;}
+
+a:visited {color:indianred;}
+
+article {
+  padding: 10px;
+  padding-top:0px;
+  margin: 10px;
+}
+
+body {
+  font-size: 20px;
+  margin:0px;
+  background-color:lightgoldenrodyellow;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+input {
+  margin:3px;
+}
+
+.left {
+  float:left;
+  max-width: 40%;
+  min-width: fit-content;
+}
+
+.right {
+  float: left;
+  max-width: 60%;
+  min-width: fit-content;
+}
+
+.tab {
+  margin:0px;
+  background-color:navajowhite;
+  font-size:0px;
+}
+
+.tab button {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  background-color: inherit;
+  border: none;
+  outline: none;
+  padding:14px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size:17px;
+}
+
+.tab button.active {
+  background-color: firebrick;
+  color: lightgoldenrodyellow;
+}
+
+.tab button:hover {
+  background-color: indianred;
+  color: lightgoldenrodyellow;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  width:90%;
+  border:3px solid;
+  border-color:indianred;
+  border-collapse: collapse;
+}
+
+td {
+  padding:5px;
+  border: 3px solid indianred;
+  text-align: center;
+}

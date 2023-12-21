@@ -1,0 +1,104 @@
+<html>
+    <head>
+        <title>Final Project</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <!--<script src="js4.js"></script>!-->
+
+        <div class="tab">
+            <button class="tablinks active">Final Project</button>
+            <button class="tablinks" onclick="document.location='/peter-bullard/final/report.html'">My Report</button>
+        </div>
+        <article> 
+            <p>
+                This is a playlist-ordering tool using Spotify's web API. Choose how you would like your playlist to be ordered, 
+                enter up to 20 songs (and artists, if applicable), and hit "submit." Enter song titles
+                in the left column and artist names in the right column. If your songs are not showing up properly, please add an
+                artist name or check your spelling.
+            </p>
+            <div class="left">
+                <form>
+                    <label for="tempoUp">Feature:</label><br>
+                    <input type="radio" id="tempoUp" name="metric" value="tempoUp">
+                    <label for="tempoUp">Tempo (Rising)</label><br>
+                    <input type="radio" id="tempoDown" name="metric" value="tempoDown">
+                    <label for="tempoDown">Tempo (Falling)</label><br>
+                    <input type="radio" id="danceUp" name="metric" value="danceUp">
+                    <label for="tempoDown">Danceability (Rising)</label><br>
+                    <input type="radio" id="danceDown" name="metric" value="danceDown">
+                    <label for="tempoDown">Danceability (Falling)</label><br>
+                    <input type="radio" id="loudUp" name="metric" value="loudUp">
+                    <label for="tempoDown">Loudness (Rising)</label><br>
+                    <input type="radio" id="loudDown" name="metric" value="loudDown">
+                    <label for="tempoDown">Loudness (Falling)</label><br>
+                    <input type="radio" id="energyUp" name="metric" value="energyUp">
+                    <label for="tempoDown">Energy (Rising)</label><br>
+                    <input type="radio" id="energyDown" name="metric" value="energyDown">
+                    <label for="tempoDown">Energy (Falling)</label><br>
+                    <input type="radio" id="posUp" name="metric" value="posUp">
+                    <label for="tempoDown">Positivity (Rising)</label><br>
+                    <input type="radio" id="posDown" name="metric" value="posDown">
+                    <label for="tempoDown">Positivity (Falling)</label><br>
+                    <input type="radio" id="speechUp" name="metric" value="speechUp">
+                    <label for="tempoDown">Speechiness (Rising)</label><br>
+                    <input type="radio" id="speechDown" name="metric" value="speechDown">
+                    <label for="tempoDown">Speechiness (Falling)</label><br>
+                    <input type="radio" id="instUp" name="metric" value="instUp">
+                    <label for="tempoDown">Instrumenalness (Rising)</label><br>
+                    <input type="radio" id="instDown" name="metric" value="instDown">
+                    <label for="tempoDown">Instrumenalness (Falling)</label><br>
+
+                    <label for="song1">Songs / Artists (optional)</label><br>
+                    <input type="text" id="song1" name="song1"><label>by</label>
+                    <input type="text" id="artist1" name="artist1"><br>
+                    <input type="text" id="song2" name="song2"><label>by</label>
+                    <input type="text" id="artist2" name="artist2"><br>
+                    <input type="text" id="song3" name="song3"><label>by</label>
+                    <input type="text" id="artist3" name="artist3"><br>
+                    <input type="text" id="song4" name="song4"><label>by</label>
+                    <input type="text" id="artist4" name="artist4"><br>
+                    <input type="text" id="song5" name="song5"><label>by</label>
+                    <input type="text" id="artist5" name="artist5"><br>
+                    <input type="text" id="song6" name="song6"><label>by</label>
+                    <input type="text" id="artist6" name="artist6"><br>
+                    <input type="text" id="song7" name="song7"><label>by</label>
+                    <input type="text" id="artist7" name="artist7"><br>
+                    <input type="text" id="song8" name="song8"><label>by</label>
+                    <input type="text" id="artist8" name="artist8"><br>
+                    <input type="text" id="song9" name="song9"><label>by</label>
+                    <input type="text" id="artist9" name="artist9"><br>
+                    <input type="text" id="song10" name="song10"><label>by</label>
+                    <input type="text" id="artist10" name="artist10"><br>
+                    <input type="text" id="song11" name="song11"><label>by</label>
+                    <input type="text" id="artist11" name="artist11"><br>
+                    <input type="text" id="song12" name="song12"><label>by</label>
+                    <input type="text" id="artist12" name="artist12"><br>
+                    <input type="text" id="song13" name="song13"><label>by</label>
+                    <input type="text" id="artist13" name="artist13"><br>
+                    <input type="text" id="song14" name="song14"><label>by</label>
+                    <input type="text" id="artist14" name="artist14"><br>
+                    <input type="text" id="song15" name="song15"><label>by</label>
+                    <input type="text" id="artist15" name="artist15"><br>
+                    <input type="text" id="song16" name="song16"><label>by</label>
+                    <input type="text" id="artist16" name="artist16"><br>
+                    <input type="text" id="song17" name="song17"><label>by</label>
+                    <input type="text" id="artist17" name="artist17"><br>
+                    <input type="text" id="song18" name="song18"><label>by</label>
+                    <input type="text" id="artist18" name="artist18"><br>
+                    <input type="text" id="song19" name="song19"><label>by</label>
+                    <input type="text" id="artist19" name="artist19"><br>
+                    <input type="text" id="song20" name="song20"><label>by</label>
+                    <input type="text" id="artist20" name="artist20"><br>
+                    <input type="submit">
+                </form>
+            </div>
+            <div id="results-table" class="right">
+                
+            </div>
+
+        </article>
+
+        <script src="scriptFinal.js"></script>
+    </body>
+</html>
